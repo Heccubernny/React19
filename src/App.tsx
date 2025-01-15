@@ -10,6 +10,7 @@ import FetchingData from "./pages/graphQL/FetchingData";
 import CreditCard from "./pages/finances/CreditCard";
 import Animation1 from "./components/animations/gsap/Animation1";
 import AddProducts from "./components/forms/AddProducts";
+import Notifications from "./pages/Notifications";
 
 gsap.registerPlugin( useGSAP );
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="1" element={ <Animation1 /> } />
         </Route>
       </Route>
+      <Route path="/notifications" element={ <Notifications /> } />
 
       <Route path="forms">
         <Route path="add_products" element={ <AddProducts /> } />

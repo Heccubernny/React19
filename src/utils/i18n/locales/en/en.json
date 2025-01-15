@@ -1,0 +1,28 @@
+{
+    "translation": {
+        "common": {
+            "greeting": "Hello",
+            "farewell": "Goodbye",
+            "welcome": "Welcome",
+            "thank_you": "Thank you",
+            "yes": "Yes",
+            "no": "No",
+            "please": "Please",
+            "sorry": "Sorry",
+            "home": "Home",
+            "about": "About",
+            "contact": "Contact",
+            "login": "Login",
+            "logout": "Logout",
+            "profile": "Profile",
+            "settings": "Settings",
+            "language": "Language",
+            "help": "Help",
+            "search": "Search"
+        },
+        "Welcome to React": "Welcome to React and react-i18next",
+        "notifications_one": "You have {{count}} new notification. Click here to see them.",
+        "notifications": "You have {{count}} new notifications. Click here to see them.",
+        "notifications_others": "You have {{count}} new notifications. Click here to see them."
+    }
+}
