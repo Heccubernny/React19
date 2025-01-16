@@ -18,12 +18,15 @@ i18n
             en,
             fr
         },
-        lng: "fr", // if you're using a language detector, do not define the lng option
-        fallbackLng: "en",
+        // lng: "en", // if you're using a language detector, do not define the lng option
+        // fallbackLng: "en",
         debug: true,
 
         interpolation: {
             escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
+        },
+        react: {
+            bindI18n: "languageChanged"
         }
     } );
 
